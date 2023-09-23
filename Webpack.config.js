@@ -5,12 +5,12 @@ module.exports = {
             {
                 test: /\.(ts|tsx)$/,
                 exclude: /node_modules/,
-                use: 'ts-loader',
+                use: "ts-loader",
             },
             // other rules...
         ],
     },
     resolve: {
-        extensions: ['.tsx', '.ts', '.js'],
+        extensions: [".tsx", ".ts", ".js"],
     },
 };
