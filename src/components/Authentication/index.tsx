@@ -97,7 +97,7 @@ export default function Authentication() {
                         <Grid>
                             {signUpSession
                                 ? "Already have an account?"
-                                : "Don't have an account? "}
+                                : "Don't have an account?"}
 
                             <Button
                                 onClick={() =>
