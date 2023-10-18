@@ -14,7 +14,7 @@ import { signIn, signUp } from "../../Services/Auth";
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
-export default function Authentication() {
+function Authentication() {
     const [authSession, setAuthSession] = useState<UserSession | null>(null);
     const [errorSession, setErrorSession] = useState(null);
     const [signUpSession, setSignUpSession] = useState(false);
@@ -127,3 +127,5 @@ export default function Authentication() {
         );
     }
 }
+
+export default Authentication;
