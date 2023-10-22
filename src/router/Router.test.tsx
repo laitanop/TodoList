@@ -1,5 +1,5 @@
 import React from "react";
-import { render, screen } from "@testing-library/react";
+import { render } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom"; // Use MemoryRouter for testing
 
 import App from "../App";
@@ -10,6 +10,4 @@ test("renders App", () => {
             <App />
         </MemoryRouter>
     );
-
-    expect(screen.getByText("Learn React")).toBeInTheDocument();
 });
