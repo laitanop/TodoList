@@ -59,7 +59,7 @@ function Authentication() {
                     <Grid>
                         <Grid item xs={3}>
                             <Typography variant="h6" component="h2">
-                                Welcome to todo list
+                                Welcome to todo list!!
                             </Typography>
                             <Typography variant="h5" component="h2">
                                 {signUpSession ? "Sign Up" : "Sign In"}
